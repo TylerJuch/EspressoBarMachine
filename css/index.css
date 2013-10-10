@@ -1,0 +1,125 @@
+/** All properties are alphabetized/logically ordered **/
+
+/** Resets **/
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+/** Utilities **/
+.clear {
+    clear: both;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** Wrappers **/
+#mainWrapper {
+    background: url('../media/background.jpg');
+    height: 100%;
+    padding-top: 200px;
+    width: 100%;
+}
+
+/** Generic **/
+.box {
+    background: #7F4927;
+    border-color: #CF763E;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.398438) 0px 2px 4px;
+    -webkit-box-shadow: rgba(0,0,0,0.398438) 0px 2px 4px;
+    color: #FFC09A;
+    font-family:'Monotype Corsiva', 'Apple Chancery', 'ITC Zapf Chancery', 'URW Chancery L', cursive;
+}
+.button {
+    border-color: #CC9A7B;
+    border-style: solid;
+    border-width: 2px;
+    color: #FFC09A;
+    cursor: pointer;
+}
+.title {
+    font-family: "desdemona";
+    font-size: 40pt;
+    text-align: center;
+}
+
+/** Covers **/
+#overlay {
+    background-color: rgba(0,0,0, .7);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/** Spinner Box **/
+#spinnerOuterWrapper {
+    width: 700px;
+}
+
+#spinnerInnerWrapper {
+    padding: 10px;
+    width: 345px;
+}
+
+.spinnerContainer {
+    background: url('../media/question_mark.jpg');
+    border-style: solid;
+    border-color: #FF914D;
+    box-shadow: rgba(0,0,0,0.398438) 0px 2px 4px;
+    -webkit-box-shadow: rgba(0,0,0,0.398438) 0px 2px 4px;
+    float: left;
+    height: 90px;
+    width: 90px;
+}
+
+#secondSpinner {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#spinnerHandle {
+    background: url("../media/handle.png");
+    float: left;
+    height:96px;
+    margin-left: 5px;
+    width:29px;
+
+}
+
+#results {
+    text-align:center;
+}
+
+/** Results Box **/
+#prizeBox {
+    display: none;
+    height: 335px;
+    left: 50%;
+    margin-left: -200px;
+    position: absolute;
+    top: 125px;
+    width: 400px;
+    z-index: 2;
+}
+#closePrizeBoxDiv {
+    background: #CF763E;
+    text-align: center;
+    width: 115px;
+}
+#prizeContainer {
+    height: 205px;
+    width: 205px;
+}
+#resultNameDiv {
+    text-align: center;
+    font-size: 16pt
+}
